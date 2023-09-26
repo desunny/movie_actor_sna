@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "YS"
+  },
+  "text": {
+    "more": "한국 흥행 영화 감독 및 배우의 관계를 시가화하여... \n\n방향: 감독에서 영화배우\n노드크기: 매개중심성 \n노드색깔: 결속집단 (모듈레러티) ",
+    "intro": "한국의 대표 영화 배우들과 감독들의 관계를 분석하여 함께 공동작업을 하는 그룹을 시각화 함",
+    "title": "영화감독과 배우들의 결속집단 분석"
+  },
+  "legend": {
+    "edgeLabel": "감독, 출연배우 관계",
+    "colorLabel": "소집단(결속집단)",
+    "nodeLabel": "감독, 배우"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "gender",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
